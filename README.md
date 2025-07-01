@@ -1,9 +1,9 @@
-# Next.js Demo
+# DigiCAP.tv 
 
-A barebones Next.js instance showcasing [Sevalla's application hosting](https://sevalla.com/application-hosting/).
+A barebones Next.js instance for DigiCAP.tv landing page.
 
 ---
-Sevalla is the intuitive platform and the perfect home for your web projects. Deploy applications, databases, and static sites effortlessly.
+DigiCAP.tv is a simple landing page to support developers and partners for NextGEN broadcasting products.
 
 ## Getting Started
 
