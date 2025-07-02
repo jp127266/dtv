@@ -1,8 +1,11 @@
+import HomeClient from './HomeClient';
+
 export default async function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center">
-        <h1 className="text-2xl text-center sm:text-3xl">Welcome to DigiCAP.tv</h1>
+      <main className="flex flex-col gap-8 row-start-2 items-center w-full">
+        <HomeClient />
+        
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://www.notion.so/DigiCaster-Wiki-4bb9e5aa7d044086b4d186d18f226e69?source=copy_link"
