@@ -2,8 +2,8 @@ import HomeClient from './HomeClient';
 
 export default async function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center w-full">
+    <div className="min-h-screen p-4 pb-20 sm:p-8 md:p-20 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col gap-4 items-center w-full pt-[8vh] sm:pt-[10vh]">
         <HomeClient />
         
         <a
@@ -15,7 +15,7 @@ export default async function Home() {
           📁 Read DigiCaster docs
         </a>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+      <footer className="fixed bottom-0 left-0 right-0 flex gap-3 sm:gap-6 flex-wrap items-center justify-center p-3 sm:p-6 text-sm sm:text-base">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://www.notion.so/16e3ad50cbcd41d1bbf069f43e972498?v=61c45b66c52040f9bea8bfc74833dca5&source=copy_link"
